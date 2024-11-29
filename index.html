@@ -8,19 +8,12 @@
     <title>Arkadiusz Bieleninik - Neurolog Dziecięcy</title>
   </head>
   <body class="min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="text-gray-600 body-font">
-      <div
-        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="#Main"
-          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img
-            src="./assets/logo.png"
-            alt="logo"
-            class="w-10 h-10 text-white p-2" />
+    <header class="text-gray-600 body-font relative z-50 bg-white/80 backdrop-blur-sm">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a href="#Main" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src="./assets/logo.png" alt="logo" class="w-10 h-10 text-white p-2" />
         </a>
-        <nav
-          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a href="#Bio" class="mr-5 hover:text-gray-900">O mnie</a>
           <a href="#Euromedis" class="mr-5 hover:text-gray-900">EuroMedis</a>
           <a href="#Fizjoline" class="mr-5 hover:text-gray-900">Fizjoline</a>
@@ -30,20 +23,32 @@
       </div>
     </header>
 
-    <!-- Main Background -->
-    <section class="relative w-full h-[60vh] md:h-[80vh] lg:h-screen section-content" id="Main">
-      <img 
-        src="./assets/office.webp" 
-        alt="office-image" 
-        class="w-full h-full object-cover object-center"
-      >
+    <!-- Main -->
+    <section id="Main" class="section-content absolute top-0 left-0 w-full">
+      <div class="relative w-full h-[60vh] md:h-[80vh] lg:h-screen">
+        <img 
+          src="./assets/office.webp" 
+          alt="office-image" 
+          class="w-full h-full object-cover object-center"
+        >
+        <div class="absolute inset-0 flex items-center justify-center bg-black/30">
+          <div class="text-center opacity-0 animate-fadeIn">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
+              Arkadiusz Bieleninik
+            </h1>
+            <p class="text-xl md:text-2xl text-white">
+              Neurolog Dziecięcy
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     
     <!-- Bio -->
     <section class="text-gray-600 body-font section-content hidden" id="Bio">
       <div class="container px-5 mx-auto flex flex-col">
         <div class="lg:w-4/6 mx-auto">
-          <div class="rounded-lg h-64 overflow-hidden">
+          <div class="rounded-lg h-64 overflow-hidden md:block hidden">
             <img
               alt="office-jpg"
               class="object-cover object-center h-full w-full"
