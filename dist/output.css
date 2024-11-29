@@ -906,6 +906,16 @@ video {
   padding-bottom: 6rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
