@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="/assets/logo.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
     <title>Arkadiusz Bieleninik - Neurolog Dziecięcy</title>
     <meta name="description" content="Dr Arkadiusz Bieleninik - Neurolog Dziecięcy w Szczecinie. Specjalista z wieloletnim doświadczeniem w diagnostyce i leczeniu chorób neurologicznych u dzieci." />
     <meta name="keywords" content="neurolog dziecięcy, Szczecin, Arkadiusz Bieleninik, pediatra" />
@@ -12,12 +12,19 @@
     <meta property="og:title" content="Arkadiusz Bieleninik - Neurolog Dziecięcy" />
     <meta property="og:description" content="Specjalista neurologii dziecięcej w Szczecinie" />
     <meta property="og:image" content="./assets/logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bieleninikneurologdzieciecy.pl/" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bieleninikneurologdzieciecy.pl/" />
+    <meta http-equiv="Cache-Control" content="max-age=31536000" />
+    <link rel="preload" href="./assets/logo.png" as="image" />
+    <link rel="preload" href="./dist/output.css" as="style" />
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="text-gray-600 body-font relative z-50 bg-white/80 backdrop-blur-sm">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="#Main" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img src="./assets/logo.png" alt="logo" class="w-10 h-10 text-white p-2" />
+          <img src="./assets/logo.png" alt="logo" width="25" height="25" />
         </a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a href="#Bio" class="mr-5 hover:text-gray-900">O mnie</a>
@@ -35,6 +42,8 @@
         <img 
           src="./assets/office.webp" 
           alt="office-image" 
+          width="1920"
+          height="1080"
           class="hidden md:block w-full h-full object-cover object-center"
           loading="lazy"
         >
@@ -66,8 +75,10 @@
               <div
                 class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                 <img
-                  src="./assets/Arkadiusz-Bieleninik-min.webp"
+                  src="./assets/arkadiusz-bieleninik-min.webp"
                   alt="Arkadiusz Bieleninik"
+                  width="80"
+                  height="80"
                   class="rounded-full" />
               </div>
               <div
