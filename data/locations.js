@@ -8,15 +8,7 @@ export const locations = [
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.3090876712013!2d14.526484076970622!3d53.40929817001124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa091ba999b713%3A0xf86f70dc2d500f0!2sCentrum%20Medyczne%20EuroMedis!5e0!3m2!1spl!2spl!4v1732202800066!5m2!1spl!2spl",
   },
-  {
-    id: "Fizjoline",
-    title: "Fizjoline - Centrum Medyczne",
-    hours: "1 i 3 Piątek miesiąca <br/> 08:00 - 15:00",
-    address: "Kosynierów 14, 70-786 Szczecin",
-    phone: "+48 91 823 83 58",
-    mapUrl:
-      "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.2524772868346!2d14.6631193!3d53.37453190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700a7c90767bd6b%3A0xb26d54e07d669be3!2sFizjoline%20-%20Centrum%20Medyczne%2C%20Rehabilitacji%20i%20Treningu%20Personalnego!5e0!3m2!1spl!2spl!4v1732371826735!5m2!1spl!2spl",
-  },
+
   {
     id: "MAMMA",
     title: "Gabinety MAMMA",
