@@ -95,12 +95,11 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-
-      // Sprawdź zgodę na ciasteczka przed inicjalizacją GA
-      if (localStorage.getItem("cookiesAccepted")) {
-        gtag("js", new Date());
-        gtag("config", "G-J0JMCFSBW1");
-      }
+      gtag("js", new Date());
+      gtag("config", "G-J0JMCFSBW1", {
+        anonymize_ip: true,
+        cookie_flags: "SameSite=None;Secure",
+      });
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
