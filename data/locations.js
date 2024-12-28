@@ -26,6 +26,6 @@ export const locations = [
     phone: "+48 531 934 855",
     email: "rejestracja@bieleninikneurologdzieciecy.pl",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37908.805506518984!2d14.745154380798345!3d53.570256146429806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47009f5ddbe04add%3A0x8c4571377bd2cccb!2sAkademia%20Malucha%20-%20Centrum%20Diagnozy%20i%20Terapii%20Dzieci!5e0!3m2!1spl!2spl!4v1732371943415!5m2!1spl!2spl",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418.8383073918968!2d14.821262360167507!3d53.57013272768006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47009f5ddbe04add%3A0x8c4571377bd2cccb!2sAkademia%20Malucha%20-%20Centrum%20Diagnozy%20i%20Terapii%20Dzieci!5e0!3m2!1spl!2spl!4v1735379712623!5m2!1spl!2spl",
   },
 ];
