@@ -29,22 +29,6 @@ const physicianSchema = {
     },
     {
       "@type": "MedicalClinic",
-      name: "Fizjoline",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "ul. Jagiellońska 67/68",
-        addressLocality: "Szczecin",
-        postalCode: "70-382",
-        addressCountry: "PL",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: "53.43843",
-        longitude: "14.54744",
-      },
-    },
-    {
-      "@type": "MedicalClinic",
       name: "MAMMA - Centrum Diagnostyki i Leczenia Chorób Piersi",
       address: {
         "@type": "PostalAddress",
@@ -118,7 +102,7 @@ const faqSchema = {
       name: "W jakich lokalizacjach przyjmuje Dr Bieleninik?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "EuroMedis (Poniedziałek 10:00-16:30, Czwartek 08:00-13:00), Fizjoline (1 i 3 Piątek miesiąca 08:00-15:00), MAMMA (2 i 4 Piątek miesiąca 08:00-14:00), Akademia Malucha (Wtorek 08:00-13:00)",
+        text: "EuroMedis (Poniedziałek 10:00-16:30, Czwartek 08:00-13:00), MAMMA (2 i 4 Piątek miesiąca 08:00-14:00), Akademia Malucha (Wtorek 08:00-13:00)",
       },
     },
   ],
